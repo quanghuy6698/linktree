@@ -1,0 +1,39 @@
+/* Background white opacity 80% */
+.bg-white-80 {
+  background-color: rgba(252, 252, 252, 0.8);
+}
+/* Profile image */
+.profile-img {
+  max-width: 120px;
+}
+/* Icon */
+.icon {
+  max-width: 2rem;
+}
+/* Link */
+.link {
+  text-decoration: none;
+  color: black;
+}
+/* Pure text under link */
+.pure-text {
+  color: darkgray;
+}
+
+p.pure-text {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/* Text color */
+.text-white {
+  color: white;
+}
+
+.text-deeppink {
+  color: deeppink;
+}
+
+.text-cyan {
+  color: cyan;
+}
