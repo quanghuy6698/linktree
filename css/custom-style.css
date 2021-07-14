@@ -1,39 +1,37 @@
-/* Background white opacity 80% */
-.bg-white-80 {
-  background-color: rgba(252, 252, 252, 0.8);
+.link-bg {
+  background-color: rgba(75, 139, 190, 0.8);
 }
-/* Profile image */
+
 .profile-img {
   max-width: 120px;
 }
-/* Icon */
+
 .icon {
   max-width: 2rem;
 }
-/* Link */
-.link {
-  text-decoration: none;
-  color: black;
-}
-/* Pure text under link */
-.pure-text {
-  color: darkgray;
+
+.text-white {
+  color: #f9f6ef;
 }
 
-p.pure-text {
-  border: 0;
+.text-black {
+  color: #000000;
+}
+
+p.url {
   margin: 0;
+  border: 0;
   padding: 0;
 }
-/* Text color */
-.text-white {
-  color: white;
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: none;
 }
 
-.text-deeppink {
-  color: deeppink;
-}
-
-.text-cyan {
-  color: cyan;
+.btn-show-url {
+  max-width: 1rem;
 }
